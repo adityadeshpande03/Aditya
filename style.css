@@ -1,0 +1,36 @@
+.nav-item{
+    text-align: center;
+}
+.nav-link{
+    color: white;
+    font-size: large;
+}
+.lead{
+    text-align: justify;
+}
+.profile-image{
+    border-radius: 50%;
+}
+.con-button{
+    text-decoration: none;
+}
+.con-buton{
+    border: 1px solid white;
+    border-radius: 0.75rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.text-body-project{
+    text-align: justify;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Ensure content starts from the top */
+}
+.nav-item2{
+    text-align: left;
+}
