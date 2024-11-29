@@ -34,3 +34,22 @@ html, body {
 .nav-item2{
     text-align: left;
 }
+@media (max-width: 768px) {
+    #Home .row {
+      flex-direction: column; /* Stack the content vertically */
+      text-align: center; /* Center-align the text and buttons */
+    }
+  
+    #Home .col-lg-6 {
+      text-align: center;
+    }
+  
+    #Home .profile-image {
+      margin: 0 auto; /* Center the image */
+    }
+  
+    .con-buton a {
+      text-decoration: none;
+      color: white;
+    }
+  }
