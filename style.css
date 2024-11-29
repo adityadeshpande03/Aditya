@@ -34,15 +34,3 @@ html, body {
 .nav-item2{
     text-align: left;
 }
-@media (max-width: 768px) {
-    .flex-lg-row-reverse {
-      flex-direction: column !important;
-    }
-    .profile-image {
-      margin: 0 auto;
-      order: -1;
-    }
-    .con-buton {
-      text-align: center;
-    }
-  }
